@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>  
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: #00698f;
+}
+
+form {
+  width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #3f0909fa;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #f5dcdc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #d3b739;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br></br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br></br>
+        <label for="Feedback">Feedback:</label>
+        <textarea id="Feedback" name="Feedback"></textarea><br></br>
+        <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>
